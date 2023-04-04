@@ -38,3 +38,7 @@ func (lr *LinkRepository) GetAllLinks() ([]models.Link, error) {
 		},
 	}, nil
 }
+
+func (lr *LinkRepository) CreateLink(link models.Link) (*models.Link, error) {
+	panic("Not implemented CreateLink")
+}
